@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Items.WRITABLE_BOOK"
+      },
+      {
+        "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Items.COMPARATOR"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Items.COMPARATOR"
+      },
+      {
+        "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.REDSTONE_TORCH"
+      },
+      {
+        "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CHAIN_COMMAND_BLOCK"
+    },
+    "name": "chain_command_block",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "NotchApple",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "notch_apple"
+    },
+    {
+      "name": "Saddle",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saddle"
+    },
+    {
+      "name": "EndPortalFrame",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_portal_frame"
+    },
+    {
+      "name": "CommandBlock",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "command_block"
+    },
+    {
+      "name": "ChainCommandBlock",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_command_block"
+    },
+    {
+      "name": "RepeatingCommandBlock",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "repeating_command_block"
+    },
+    {
+      "name": "GrassBlock",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_block"
+    },
+    {
+      "name": "GrassPath",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_path"
+    },
+    {
+      "name": "NameTag",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "name_tag"
+    },
+    {
+      "name": "ReverseBucket",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reverse_bucket"
+    },
+    {
+      "name": "ExplosiveArrows",
+      "type": "function",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_arrows"
+    },
+    {
+      "name": "BoomDirt",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boom_dirt"
+    },
+    {
+      "name": "CreeperEgg",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_egg"
+    },
+    {
+      "name": "ExplosiveArrowsEssential",
+      "type": "function",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_arrows_essential"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "mc_homebrew",
+    "modName": "MC Homebrew",
+    "version": "1.0.0",
+    "author": "joeho, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "datapack-1.15.x",
+    "modElementsPackage": "net.mcreator.mchomebrew",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}
