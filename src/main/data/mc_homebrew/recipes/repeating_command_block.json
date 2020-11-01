@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:Blocks.PURPLE_GLAZED_TERRACOTTA"
     },
     "1": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:Items.WRITABLE_BOOK"
     },
     "2": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:Blocks.PURPLE_GLAZED_TERRACOTTA"
     },
     "3": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:Items.REPEATER"
     },
     "4": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:Items.END_CRYSTAL"
     },
     "5": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:Items.REPEATER"
     },
     "6": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:Blocks.PURPLE_GLAZED_TERRACOTTA"
     },
     "7": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:Blocks.REDSTONE_TORCH"
     },
     "8": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:Blocks.PURPLE_GLAZED_TERRACOTTA"
     }
   },
   "result": {
-    "item": "minecraft:repeating_command_block",
+    "item": "minecraft:Blocks.REPEATING_COMMAND_BLOCK",
     "count": 1
   }
 }

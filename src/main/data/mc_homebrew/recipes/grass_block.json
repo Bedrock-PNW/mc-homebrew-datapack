@@ -7,14 +7,14 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:Items.WHEAT_SEEDS"
     },
     "1": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:Blocks.DIRT"
     }
   },
   "result": {
-    "item": "minecraft:grass_block",
+    "item": "minecraft:Blocks.GRASS_BLOCK",
     "count": 1
   }
 }

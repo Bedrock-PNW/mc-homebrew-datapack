@@ -6,17 +6,17 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:lead"
+      "item": "minecraft:Items.LEAD"
     },
     "1": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:Items.IRON_NUGGET"
     },
     "2": {
-      "item": "minecraft:paper"
+      "item": "minecraft:Items.PAPER"
     }
   },
   "result": {
-    "item": "minecraft:name_tag",
+    "item": "minecraft:Items.NAME_TAG",
     "count": 1
   }
 }

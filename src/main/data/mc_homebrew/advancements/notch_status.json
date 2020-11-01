@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "minecraft:Items.ENCHANTED_GOLDEN_APPLE"
     },
     "title": "Unbeatable Notch Status",
     "description": "Eat a Notch apple",
@@ -15,7 +15,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:enchanted_golden_apple"
+          "item": "minecraft:Items.ENCHANTED_GOLDEN_APPLE"
         }
       }
     }

@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:Blocks.CYAN_GLAZED_TERRACOTTA"
     },
     "1": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:Items.WRITABLE_BOOK"
     },
     "2": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:Blocks.CYAN_GLAZED_TERRACOTTA"
     },
     "3": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:Items.COMPARATOR"
     },
     "4": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:Items.END_CRYSTAL"
     },
     "5": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:Items.COMPARATOR"
     },
     "6": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:Blocks.CYAN_GLAZED_TERRACOTTA"
     },
     "7": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:Blocks.REDSTONE_TORCH"
     },
     "8": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:Blocks.CYAN_GLAZED_TERRACOTTA"
     }
   },
   "result": {
-    "item": "minecraft:chain_command_block",
+    "item": "minecraft:Blocks.CHAIN_COMMAND_BLOCK",
     "count": 1
   }
 }

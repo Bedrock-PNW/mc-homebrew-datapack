@@ -8,26 +8,26 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     },
     "3": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     },
     "4": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     },
     "5": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     },
     "6": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     },
     "8": {
-      "item": "minecraft:leather"
+      "item": "minecraft:Items.LEATHER"
     }
   },
   "result": {
-    "item": "minecraft:saddle",
+    "item": "minecraft:Items.SADDLE",
     "count": 1
   }
 }

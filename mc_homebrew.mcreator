@@ -136,7 +136,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "datapack-1.15.x",
+    "currentGenerator": "datapack-1.16.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "com.nutellarlz.mchomebrew",
     "lockBaseModFiles": false

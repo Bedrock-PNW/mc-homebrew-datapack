@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "1": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "2": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "3": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "4": {
-      "item": "minecraft:egg"
+      "item": "minecraft:Items.EGG"
     },
     "5": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "6": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "7": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     },
     "8": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:Items.GUNPOWDER"
     }
   },
   "result": {
-    "item": "minecraft:creeper_spawn_egg",
+    "item": "minecraft:Items.CREEPER_SPAWN_EGG",
     "count": 1
   }
 }

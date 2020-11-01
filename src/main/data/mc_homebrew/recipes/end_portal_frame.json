@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:Items.ENDER_PEARL"
     },
     "1": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:Blocks.END_STONE"
     },
     "2": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:Items.ENDER_PEARL"
     },
     "3": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:Blocks.END_STONE"
     },
     "4": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:Blocks.OBSIDIAN"
     },
     "5": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:Blocks.END_STONE"
     },
     "6": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:Items.ENDER_PEARL"
     },
     "7": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:Blocks.END_STONE"
     },
     "8": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:Items.ENDER_PEARL"
     }
   },
   "result": {
-    "item": "minecraft:end_portal_frame",
+    "item": "minecraft:Blocks.END_PORTAL_FRAME",
     "count": 1
   }
 }
