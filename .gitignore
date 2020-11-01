@@ -42,4 +42,4 @@ gradle-app.setting
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
 .gradle/buildOutputCleanup/outputFiles.bin
 build/export/export.zip
-/.mcreator/workspaceBackups/*
+.mcreator/workspaceBackups/*
