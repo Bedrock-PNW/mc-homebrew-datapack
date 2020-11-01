@@ -101,15 +101,6 @@
       "registry_name": "explosive_arrows"
     },
     {
-      "name": "BoomDirt",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "boom_dirt"
-    },
-    {
       "name": "CreeperEgg",
       "type": "recipe",
       "sortid": 15,
