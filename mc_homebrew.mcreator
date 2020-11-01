@@ -117,6 +117,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "notch_status"
+    },
+    {
+      "name": "Chainhelmet",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainhelmet"
+    },
+    {
+      "name": "Chainchestplate",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainchestplate"
+    },
+    {
+      "name": "Chainleggings",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainleggings"
+    },
+    {
+      "name": "Chainboots",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainboots"
     }
   ],
   "variable_elements": [],

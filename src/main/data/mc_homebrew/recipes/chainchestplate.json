@@ -1,0 +1,39 @@
+{
+  "group": "mc_homebrew",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "2": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "3": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "4": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "5": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "6": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "7": {
+      "item": "minecraft:Blocks.CHAIN"
+    },
+    "8": {
+      "item": "minecraft:Blocks.CHAIN"
+    }
+  },
+  "result": {
+    "item": "minecraft:Items.CHAINMAIL_CHESTPLATE",
+    "count": 1
+  }
+}
