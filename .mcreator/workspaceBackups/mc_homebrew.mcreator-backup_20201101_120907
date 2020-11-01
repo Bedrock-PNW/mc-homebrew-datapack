@@ -117,15 +117,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_egg"
-    },
-    {
-      "name": "ExplosiveArrowsEssential",
-      "type": "function",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "explosive_arrows_essential"
     }
   ],
   "variable_elements": [],
@@ -136,7 +127,7 @@
   "workspaceSettings": {
     "modid": "mc_homebrew",
     "modName": "MC Homebrew",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "author": "joeho, MCreator",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
@@ -146,7 +137,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "datapack-1.15.x",
-    "modElementsPackage": "net.mcreator.mchomebrew",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.nutellarlz.mchomebrew",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000432115
