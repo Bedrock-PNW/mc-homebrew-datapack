@@ -117,15 +117,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_egg"
-    },
-    {
-      "name": "ExplosiveArrowsEssential",
-      "type": "function",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "explosive_arrows_essential"
     }
   ],
   "variable_elements": [],
