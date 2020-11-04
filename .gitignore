@@ -45,3 +45,4 @@ build/export/export.zip
 
 .mcreator
 /workspaceBackups/
+/workspaceBackups/*
