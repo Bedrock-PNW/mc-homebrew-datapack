@@ -174,82 +174,8 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:tall_grass",
-          "properties": {
-            "half": "upper"
-          }
-        },
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "block": {
-              "blocks": [
-                "minecraft:tall_grass"
-              ],
-              "state": {
-                "half": "lower"
-              }
-            }
-          },
-          "offsetY": -1
-        },
-        {
-          "condition": "minecraft:alternative",
-          "terms": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:wooden_sword"
-                ]
-              }
-            },
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:stone_sword"
-                ]
-              }
-            },
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:iron_sword"
-                ]
-              }
-            },
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:diamond_sword"
-                ]
-              }
-            },
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:golden_sword"
-                ]
-              }
-            },
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:netherite_sword"
-                ]
-              }
-            }
-          ]
-        },
-        {
           "condition": "minecraft:random_chance",
-          "chance": 0.05
+          "chance": 0.1
         }
       ]
     }
