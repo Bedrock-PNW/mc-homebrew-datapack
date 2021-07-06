@@ -1,0 +1,71 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_mushroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "recipes": {
+                  "homebrew:mushroom_stem_1": true,
+                  "homebrew:mushroom_stem_2": true,
+                  "homebrew:mushroom_stem_3": true,
+                  "homebrew:mushroom_stem_4": true,
+                  "homebrew:mushroom_stem_5": true,
+                  "homebrew:mushroom_stem_6": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_mushroom",
+      "has_the_recipe"
+    ],
+    [
+      "has_red_mushroom",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "homebrew:mushroom_stem_1",
+      "homebrew:mushroom_stem_2",
+      "homebrew:mushroom_stem_3",
+      "homebrew:mushroom_stem_4",
+      "homebrew:mushroom_stem_4",
+      "homebrew:mushroom_stem_6"
+    ]
+  }
+}
