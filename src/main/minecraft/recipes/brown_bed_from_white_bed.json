@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dyed_bed",
+  "ingredients": [
+    {
+      "tag": "homebrew:non_brown_beds"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_bed"
+  }
+}

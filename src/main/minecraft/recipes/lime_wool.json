@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dyed_wool",
+  "ingredients": [
+    {
+      "tag": "homebrew:non_lime_wool"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_wool"
+  }
+}

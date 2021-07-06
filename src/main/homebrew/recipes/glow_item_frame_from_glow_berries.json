@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "glow_item_frame",
+    "pattern": [
+        " # ",
+        "#I#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glow_berries"
+        },
+        "I": {
+            "item": "minecraft:item_frame"
+        }
+    },
+    "result": {
+        "item": "minecraft:glow_item_frame"
+    }
+}

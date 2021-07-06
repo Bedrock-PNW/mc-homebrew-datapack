@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "name_tag",
+    "pattern": [
+        "# ",
+        "PI"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_nugget"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "I": {
+            "item": "minecraft:ink_sac"
+        }
+    },
+    "result": {
+        "item": "minecraft:name_tag"
+    }
+}

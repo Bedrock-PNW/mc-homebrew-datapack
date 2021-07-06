@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "tag": "homebrew:overcookable_foods"
+    },
+    "result": "minecraft:charcoal",
+    "experience": 0.15,
+    "cookingtime": 100,
+    "group": "charcoal"
+}

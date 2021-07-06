@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:debug_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Steve\\'s Bat\",\"color\":\"#D20000\",\"italic\":false}',Lore:['[{\"text\":\"Knockback \",\"color\":\"gray\",\"italic\":false},{\"text\":\"CCLV\",\"color\":\"gray\",\"obfuscated\":true}]','{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 0.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 4 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:3,RepairCost:2147483647}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 255
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer_player",
+          "predicate": {
+            "player": {
+              "level": {
+                "min": 9001,
+                "max": 2147483647
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer_player",
+          "predicate": {
+            "player": {
+              "advancements": {
+                "homebrew:secrets/forbidden_power": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

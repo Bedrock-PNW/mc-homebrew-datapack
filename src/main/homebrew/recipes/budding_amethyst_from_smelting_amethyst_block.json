@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:amethyst_block"
+    },
+    "result": "minecraft:budding_amethyst",
+    "experience": 300,
+    "cookingtime": 6000,
+    "group": "budding_amethyst"
+}

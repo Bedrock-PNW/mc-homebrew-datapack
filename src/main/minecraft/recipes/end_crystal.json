@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#E#",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "C": {
+            "item": "minecraft:crying_obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_crystal"
+    }
+}

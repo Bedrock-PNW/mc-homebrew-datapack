@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "W"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:clock"
+        },
+        "W": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "minecraft:daylight_detector"
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_helmet_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:chainmail_helmet_smithing"
+      }
+    },
+    "has_the_chestplate_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:chainmail_chestplate_smithing"
+      }
+    },
+    "has_the_leggings_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:chainmail_leggings_smithing"
+      }
+    },
+    "has_the_boots_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:chainmail_boots_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_helmet_recipe",
+      "has_the_chestplate_recipe",
+      "has_the_leggings_recipe",
+      "has_the_boots_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "homebrew:chainmail_boots_smithing"
+    ]
+  }
+}

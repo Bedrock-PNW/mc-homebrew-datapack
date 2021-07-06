@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chainmail_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "homebrew:chainmail_armors"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:iron_chestplate_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chainmail_armor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "homebrew:iron_chestplate_smithing"
+    ]
+  }
+}

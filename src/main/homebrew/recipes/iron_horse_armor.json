@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  X",
+        "X#X",
+        "XXX"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_horse_armor"
+    }
+}

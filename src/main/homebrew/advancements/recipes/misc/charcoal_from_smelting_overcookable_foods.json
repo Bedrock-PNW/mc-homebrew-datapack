@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "homebrew:charcoal_from_smelting_overcookable_foods"
+    ]
+  },
+  "criteria": {
+    "has_overcookable_food": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "homebrew:overcookable_foods"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:charcoal_from_smelting_overcookable_foods"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_overcookable_food",
+      "has_the_recipe"
+    ]
+  ]
+}

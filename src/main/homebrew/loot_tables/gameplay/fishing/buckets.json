@@ -1,0 +1,215 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Variant:0}"
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Leucistic",
+                        "color": "gray",
+                        "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Variant:1}"
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Brown",
+                        "color": "gray",
+                        "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Variant:2}"
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Gold",
+                        "color": "gray",
+                        "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Variant:3}"
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Cyan",
+                        "color": "gray",
+                        "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Variant:4}"
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Blue",
+                        "color": "gray",
+                        "italic": false
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:water_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                        "text": "Bucket of Nothing",
+                        "color": "white",
+                        "italic": false
+                  }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                        "text": "Very Bad Weather",
+                        "color": "gray",
+                        "italic": true
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:water_bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                    "text": "Bucket of Nothing",
+                    "color": "white",
+                    "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                    "text": "Bad Weather",
+                    "color": "gray",
+                    "italic": true
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "raining": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:cod_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:salmon_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:pufferfish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:tropical_fish_bucket"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "shroomlight",
+    "pattern": [
+        " # ",
+        "#N#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "N": {
+            "item": "minecraft:nether_wart_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:shroomlight"
+    }
+}
