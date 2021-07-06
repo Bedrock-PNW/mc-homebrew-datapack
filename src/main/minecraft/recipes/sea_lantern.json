@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CGC",
+        "GPG",
+        "CGC"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:prismarine"
+        },
+        "C": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "G": {
+            "item": "minecraft:glow_ink_sac"
+        }
+    },
+    "result": {
+        "item": "minecraft:sea_lantern"
+    }
+}
