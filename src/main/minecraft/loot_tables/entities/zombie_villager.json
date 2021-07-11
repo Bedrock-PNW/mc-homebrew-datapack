@@ -36,63 +36,23 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
+                  "entity": "this",
                   "predicate": {
                     "flags": {
                       "is_on_fire": true
                     }
-                  },
-                  "entity": "this"
-                },
-                {
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "predicate": {
-                        "nbt": "{type:\"minecraft:jungle\"}"
-                      },
-                      "entity": "this"
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "predicate": {
-                        "nbt": "{type:\"minecraft:plains\"}"
-                      },
-                      "entity": "this"
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "predicate": {
-                        "nbt": "{type:\"minecraft:savanna\"}"
-                      },
-                      "entity": "this"
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "predicate": {
-                        "nbt": "{type:\"minecraft:snow\"}"
-                      },
-                      "entity": "this"
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "predicate": {
-                        "nbt": "{type:\"minecraft:taiga\"}"
-                      },
-                      "entity": "this"
-                    }
-                  ]
+                  }
                 }
               ]
             }
-          ],
-          "name": "minecraft:raw_iron"
+          ]
         }
       ],
       "conditions": [
@@ -103,6 +63,26 @@
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.11,
           "looting_multiplier": 0.02
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+            }
+          }
         }
       ]
     },
@@ -112,23 +92,23 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
+                  "entity": "this",
                   "predicate": {
                     "flags": {
                       "is_on_fire": true
                     }
-                  },
-                  "entity": "this"
+                  }
                 }
               ]
             }
-          ],
-          "name": "minecraft:raw_gold"
+          ]
         }
       ],
       "conditions": [
@@ -142,10 +122,10 @@
         },
         {
           "condition": "minecraft:entity_properties",
+          "entity": "this",
           "predicate": {
-            "nbt": "{type:\"minecraft:desert\"}"
-          },
-          "entity": "this"
+            "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+          }
         }
       ]
     },
@@ -155,23 +135,23 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
+                  "entity": "this",
                   "predicate": {
                     "flags": {
                       "is_on_fire": true
                     }
-                  },
-                  "entity": "this"
+                  }
                 }
               ]
             }
-          ],
-          "name": "minecraft:raw_copper"
+          ]
         }
       ],
       "conditions": [
@@ -185,10 +165,10 @@
         },
         {
           "condition": "minecraft:entity_properties",
+          "entity": "this",
           "predicate": {
-            "nbt": "{type:\"minecraft:swamp\"}"
-          },
-          "entity": "this"
+            "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+          }
         }
       ]
     },

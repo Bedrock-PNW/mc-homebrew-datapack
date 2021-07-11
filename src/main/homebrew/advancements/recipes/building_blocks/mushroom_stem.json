@@ -28,23 +28,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "player": {
-                "recipes": {
-                  "homebrew:mushroom_stem_1": true,
-                  "homebrew:mushroom_stem_2": true,
-                  "homebrew:mushroom_stem_3": true,
-                  "homebrew:mushroom_stem_4": true,
-                  "homebrew:mushroom_stem_5": true,
-                  "homebrew:mushroom_stem_6": true
-                }
-              }
-            }
-          }
-        ]
+        "recipe": "homebrew:mushroom_stem"
       }
     }
   },
@@ -60,12 +44,7 @@
   ],
   "rewards": {
     "recipes": [
-      "homebrew:mushroom_stem_1",
-      "homebrew:mushroom_stem_2",
-      "homebrew:mushroom_stem_3",
-      "homebrew:mushroom_stem_4",
-      "homebrew:mushroom_stem_4",
-      "homebrew:mushroom_stem_6"
+      "homebrew:mushroom_stem"
     ]
   }
 }

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Colored Shulkers",
+		"description": "",
+		"icon": {
+			"item": "light_blue_shulker_box"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"parent": "global:ultroghast",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

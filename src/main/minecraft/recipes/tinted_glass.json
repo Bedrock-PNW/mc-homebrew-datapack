@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SIS",
+        "IGI",
+        "SIS"
+    ],
+    "key": {
+        "G": {
+            "tag": "homebrew:glasses"
+        },
+        "S": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "I": {
+            "item": "minecraft:ink_sac"
+        }
+    },
+    "result": {
+        "item": "minecraft:tinted_glass",
+        "count": 2
+    }
+}

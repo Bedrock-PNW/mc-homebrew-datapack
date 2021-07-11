@@ -1,15 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:crimson_fungus"
+    "type": "minecraft:crafting_shaped",
+    "group": "fungus_block",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crimson_fungus"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_wart_block"
     }
-  },
-  "result": {
-    "item": "minecraft:nether_wart_block"
-  }
 }
