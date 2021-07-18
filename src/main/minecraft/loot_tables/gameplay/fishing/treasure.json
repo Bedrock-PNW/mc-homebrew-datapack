@@ -4,7 +4,7 @@
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "entries": [s
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -79,6 +79,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:scute",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:beach"
+              }
+            }
+          ]
         }
       ]
     }
