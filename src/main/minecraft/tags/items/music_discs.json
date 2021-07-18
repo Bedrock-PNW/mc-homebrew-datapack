@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "#minecraft:creeper_drop_music_discs",
     "minecraft:music_disc_11",
