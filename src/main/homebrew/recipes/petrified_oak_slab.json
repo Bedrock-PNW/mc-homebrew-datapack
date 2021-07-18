@@ -9,7 +9,7 @@
             "item": "minecraft:oak_slab"
         },
         "Q": {
-            "item": "minecraft:quartz_slab"
+            "tag": "homebrew:quartz_slabs"
         }
     },
     "result": {
