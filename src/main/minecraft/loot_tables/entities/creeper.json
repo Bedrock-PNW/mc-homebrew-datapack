@@ -7,6 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,25 +27,22 @@
               }
             }
           ],
-          "name": "minecraft:gunpowder"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "predicate": {
-            "nbt": "{powered:0b}"
-          },
-          "entity": "this"
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{powered:1b}"
+                }
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -64,16 +62,15 @@
               }
             }
           ],
-          "name": "minecraft:gunpowder"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "predicate": {
-            "nbt": "{powered:1b}"
-          },
-          "entity": "this"
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{powered:1b}"
+              }
+            }
+          ]
         }
       ]
     },
@@ -90,10 +87,10 @@
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
+          "entity": "killer",
           "predicate": {
             "type": "#minecraft:skeletons"
-          },
-          "entity": "killer"
+          }
         }
       ]
     }
