@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chiseled_stone_bricks"
+        },
+        "S": {
+            "item": "minecraft:silverfish_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:infested_chiseled_stone_bricks",
+        "count": 8
+    },
+    "group": "infested_blocks"
+}
