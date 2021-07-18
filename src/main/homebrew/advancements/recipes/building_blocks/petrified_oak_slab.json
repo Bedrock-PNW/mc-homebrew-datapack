@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_petrified_oak_slab": {
+    "has_quartz_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:petrified_oak_slab"
+              "minecraft:quartz_slab"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_petrified_oak_slab",
+      "has_quartz_slab",
       "has_the_recipe"
     ]
   ],
