@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_filled_map": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe_1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_1"
+      }
+    },
+    "has_the_recipe_2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_2"
+      }
+    },
+    "has_the_recipe_3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_3"
+      }
+    },
+    "has_the_recipe_4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_4"
+      }
+    },
+    "has_the_recipe_5": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_5"
+      }
+    },
+    "has_the_recipe_6": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_6"
+      }
+    },
+    "has_the_recipe_7": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_7"
+      }
+    },
+    "has_the_recipe_8": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_8"
+      }
+    },
+    "has_the_recipe_9": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "homebrew:empty_map_from_filled_map_9"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_filled_map",
+      "has_the_recipe_1",
+      "has_the_recipe_2",
+      "has_the_recipe_3",
+      "has_the_recipe_4",
+      "has_the_recipe_5",
+      "has_the_recipe_6",
+      "has_the_recipe_7",
+      "has_the_recipe_8",
+      "has_the_recipe_9"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "homebrew:empty_map_from_filled_map_1",
+      "homebrew:empty_map_from_filled_map_2",
+      "homebrew:empty_map_from_filled_map_3",
+      "homebrew:empty_map_from_filled_map_4",
+      "homebrew:empty_map_from_filled_map_5",
+      "homebrew:empty_map_from_filled_map_6",
+      "homebrew:empty_map_from_filled_map_7",
+      "homebrew:empty_map_from_filled_map_8",
+      "homebrew:empty_map_from_filled_map_9"
+    ]
+  }
+}

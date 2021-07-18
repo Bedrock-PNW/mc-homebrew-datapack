@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:filled_map"
+        }
+    },
+    "result": {
+        "item": "minecraft:map",
+        "count": 9
+    },
+    "group": "empty_map_from_filled_map"
+}

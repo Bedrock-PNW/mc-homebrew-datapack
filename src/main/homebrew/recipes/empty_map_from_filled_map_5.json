@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:filled_map"
+        },
+        {
+            "item": "minecraft:filled_map"
+        },
+        {
+            "item": "minecraft:filled_map"
+        },
+        {
+            "item": "minecraft:filled_map"
+        },
+        {
+            "item": "minecraft:filled_map"
+        }
+    ],
+    "result": {
+        "item": "minecraft:map",
+        "count": 5
+    },
+    "group": "empty_map_from_filled_map"
+}
