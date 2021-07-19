@@ -1,5 +1,6 @@
 {
   "values":[
-	"homebrew:tnt_arrows/tick"
+	"homebrew:tnt_arrows/tick",
+	"homebrew:stolen_treasure/tick"
   ]
 }
